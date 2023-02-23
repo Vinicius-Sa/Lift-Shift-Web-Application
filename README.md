@@ -61,3 +61,15 @@ Now lets create auto escaling group selecting the launch configuration, same sub
  For the backends servers that had access with name, tt's private IP mapping is given in the private dns zone, our backend servers are in one security group Memcache, Rabbitt MQ and MySQL.
  And now, whenever we want, we can upload a new artifact to S3 bucket and download it to our Tomcat ec2 instances, that's not such an efficient way of deploying artifact, the right way of deploying artifact is in a completely automated process, using CI/CD pipeline wich i will configure in futher process.
  If we want to creat auto scaling group for Memcache, Rabbitt MQ and MySQL we can just select our instance and attached to auto scaling group, but there are really better ways to do these things in AWS, instead of using auto scaling group and ec2 instances, we can use some PASS & SAAS services, which i'm going to do in the next project, refactoring our application stack migrating for aws managing services.
+ 
+ ![Captura de tela 2023-02-23 171312](https://user-images.githubusercontent.com/95035624/221019672-58c77548-67f0-4cba-8a08-cc7120a7f3d2.png)
+
+![Captura de tela 2023-02-23 151112](https://user-images.githubusercontent.com/95035624/221019074-ea58fcb8-a3fa-4994-a23d-e1285bf65087.png)
+
+ ![Captura de tela 202![Captura de tela 2023-02-23 151248](https://user-images.githubusercontent.com/95035624/221019104-d801b922-58ad-4af4-8e93-9de09ee0620c.png)
+ 
+3-02-23 151146](https://user-images.githubusercontent.com/95035624/221019090-4efa9516-498b-450e-9324-87f935665b89.png)
+ 
+![Captura de tela 2023-02-23 160940](https://user-images.githubusercontent.com/95035624/221019117-b9fa4076-7280-418a-a3b9-ffa57b0b4e41.png)
+ 
+![Captura de tela 2023-02-23 161329](https://user-images.githubusercontent.com/95035624/221019122-0723f8f9-fe07-4882-9f44-cd416ce5d466.png)
